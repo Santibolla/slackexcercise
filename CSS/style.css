@@ -129,12 +129,6 @@ div.container-video {
 
 }
 
-iframe {
-  display:flex;
-  justify-content: center;
-
-}
-
 div.cajas {
   display: flex;
   border-bottom-style: solid;
@@ -151,5 +145,35 @@ div.cajas {
 div.cajas p {
   margin: 30px;
 
+}
 
+
+/*canales*/
+
+div.canales h3 {
+  font-size: 30px;
+  font-family: arial;
+  font-weight: bold;
+}
+
+div.canales {
+  font-size: 17px;
+  font-family: arial;
+  font-weight: bold;
+  margin-left: 100px;
+  margin-top: 150px;
+}
+
+
+div.container-imagen {
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-between;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  border-color: #c0c0c0;
+}
+
+a:hover {
+  color: red;
 }
